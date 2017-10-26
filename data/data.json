@@ -1,0 +1,359 @@
+{
+    "title": {
+        "text": "儒林外史"
+    },
+    "toolbox": {
+        "x": "middle",
+        "y": "bottom",
+        "show": true,
+        "feature": {
+            "saveAsImage": {
+                "show": true
+            }
+        }
+    },
+    "tooltip": {},
+    "animationDurationUpdate": 1500,
+    "animationEasingUpdate": "quinticInOut",
+    "label": {
+        "normal": {
+            "show": true,
+            "textStyle": {
+                "fontSize": 12
+            }
+        }
+    },
+    "legend": {
+        "x": "right",
+        "show": true,
+        "data": ["主线人物", "非主线人物"]
+    },
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 45,
+            "focusNodeAdjacency": true,
+            "roam": true,
+            "categories": [{
+                "name": "主线人物",
+                "itemStyle": {
+                    "normal": {
+                        "color": "#009800"
+                    }
+                }
+            }, {
+                "name": "非主线人物",
+                "itemStyle": {
+                    "normal": {
+                        "color": "#4592FF"
+                    }
+                }
+            }],
+            "label": {
+                "normal": {
+                    "show": true,
+                    "textStyle": {
+                        "fontSize": 12
+                    }
+                }
+            },
+            "force": {
+                "repulsion": 1000
+            },
+            "edgeSymbol": ["circle", "arrow"],
+            "edgeSymbolSize": [4, 10],
+            "edgeLabel": {
+                "normal": {
+                    "show": true,
+                    "textStyle": {
+                        "fontSize": 10
+                    },
+                    "formatter": "{c}"
+                }
+            },
+            "tooltip": {
+                "position": "top"
+            },
+            "data": [{
+                "name": "《儒林外史》",
+                "draggable": true,
+                "des": ""
+            }, {
+                "name": "王冕",
+                "category": 0,
+                "draggable": true,
+                "des": "浙江诸暨县、乡村。"
+            }, {
+                "name": "梅玖",
+                "category": 1,
+                "draggable": true,
+                "des": "山东兖州府汶上县薛家集，秀才。"
+            }, {
+                "name": "周进",
+                "category": 0,
+                "draggable": true,
+                "des": "山东兖州府汶上县，进士，官至国子监司业。"
+            }, {
+                "name": "王惠",
+                "category": 0,
+                "draggable": true,
+                "des": "山东兖州府汶上县，举人，官至南昌府知府，后降了宁王。"
+            }, {
+                "name": "荀玫",
+                "category": 1,
+                "draggable": true,
+                "des": "山东兖州府汶上县薛家集人，进士，官至工部主事。"
+            }, {
+                "name": "范进",
+                "category": 0,
+                "draggable": true,
+                "des": "南海人，进士，官至山东学道。"
+            }, {
+                "name": "张乡绅",
+                "category": 0,
+                "draggable": true,
+                "des": "南海人，举人，做过一任知县，别号静斋。"
+            }, {
+                "name": "汤知县",
+                "category": 0,
+                "draggable": true,
+                "des": "高要县知县。"
+            }, {
+                "name": "严大位",
+                "category": 0,
+                "draggable": true,
+                "des": "字致中，高要县人，贡生，无恶不作。"
+            }, {
+                "name": "严大育",
+                "category": 0,
+                "draggable": true,
+                "des": "字致和，高要县人，监生。"
+            }, {
+                "name": "王氏",
+                "category": 1,
+                "draggable": true,
+                "des": "严大育的妻子，病亡。"
+            }, {
+                "name": "赵氏",
+                "category": 1,
+                "draggable": true,
+                "des": "严大育妾，王氏死后扶正。"
+            }, {
+                "name": "王德",
+                "category": 1,
+                "draggable": true,
+                "des": "高要县人，府学廪膳生员，坐馆教学。"
+            }, {
+                "name": "王仁",
+                "category": 1,
+                "draggable": true,
+                "des": "高要县人，县学廪膳生员，坐馆教学。"
+            }, {
+                "name": "陈礼",
+                "category": 1,
+                "draggable": true,
+                "des": "字和甫，江西南昌县人，善扶乩，行走在高级官吏家中。"
+            }, {
+                "name": "娄家二公子",
+                "category": 0,
+                "draggable": true,
+                "des": "娄三公子：娄奉，字玉亭，湖州人，孝廉。喜结交名士。组织鶯脰会。娄四公子：娄瓒，字瑟亭，湖州人，在监读书。"
+            }, {
+                "name": "杨执中",
+                "category": 1,
+                "draggable": true,
+                "des": "湖州新市镇东四里的人，廪生俟贡，喜读书。做了娄府宾客。"
+            }, {
+                "name": "张铁臂",
+                "category": 1,
+                "draggable": true,
+                "des": "杨执中引入娄府的宾客，实为骗子。"
+            }, {
+                "name": "鲁编修",
+                "category": 1,
+                "draggable": true,
+                "des": "湖州人，在京城翰林院供职，后告假还乡。"
+            }, {
+                "name": "蘧冼夫",
+                "category": 0,
+                "draggable": true,
+                "des": "蘧公孙，嘉兴人。秀才，后入赘鲁编修家女婿。"
+            }, {
+                "name": "鲁小姐",
+                "category": 1,
+                "draggable": true,
+                "des": "湖州人，蘧公孙的妻子，从小喜欢读八股文，脑子里记得三千篇文章。"
+            }, {
+                "name": "权勿用",
+                "category": 1,
+                "draggable": true,
+                "des": "字潜斋，浙江萧山县人，老童生。做了娄府一段时间宾客。"
+            }, {
+                "name": "马静",
+                "category": 0,
+                "draggable": true,
+                "des": "马纯上，人称马二先生，浙江处州人。秀才，老廪生，选家。"
+            }, {
+                "name": "洪憨仙",
+                "category": 1,
+                "draggable": true,
+                "des": "台州人，炼丹，在杭州伍相国庙住着以炼丹术骗人。"
+            }, {
+                "name": "胡三公子",
+                "category": 1,
+                "draggable": true,
+                "des": "胡缜，字密之，杭州人。尚书后代，比较富有。"
+            }, {
+                "name": "匡迥",
+                "category": 0,
+                "draggable": true,
+                "des": "字超人，浙江温州乐清县人。贡生，后到京城当了国子监教习。"
+            }],
+            "links": [{
+                "source": "《儒林外史》",
+                "target": "王冕",
+                "value": "引出"
+            },{
+                "source": "《儒林外史》",
+                "target": "周进",
+                "value": "引出"
+            },{
+                "source": "周进",
+                "target": "梅玖",
+                "value": "同乡"
+            }, {
+                "source": "周进",
+                "target": "王惠",
+                "value": "相识"
+            }, {
+                "source": "周进",
+                "target": "荀玫",
+                "value": "老师"
+            }, {
+                "source": "荀玫",
+                "target": "王惠",
+                "value": "朋友"
+            }, {
+                "source": "周进",
+                "target": "范进",
+                "value": "老师"
+            }, {
+                "source": "范进",
+                "target": "张乡绅",
+                "value": "朋友"
+            }, {
+                "source": "张乡绅",
+                "target": "汤知县",
+                "value": "朋友"
+            }, {
+                "source": "汤知县",
+                "target": "严大位",
+                "value": "官民"
+            }, {
+                "source": "严大位",
+                "target": "严大育",
+                "value": "兄弟"
+            }, {
+                "source": "王氏",
+                "target": "严大育",
+                "value": "弃子"
+            }, {
+                "source": "赵氏",
+                "target": "严大育",
+                "value": "小妾"
+            }, {
+                "source": "王德",
+                "target": "王氏",
+                "value": "哥哥"
+            }, {
+                "source": "王仁",
+                "target": "王氏",
+                "value": "哥哥"
+            }, {
+                "source": "王德",
+                "target": "王仁",
+                "value": "兄弟"
+            }, {
+                "source": "陈礼",
+                "target": "荀玫",
+                "value": "相识"
+            }, {
+                "source": "陈礼",
+                "target": "王惠",
+                "value": "相识"
+            }, {
+                "source": "蘧冼夫",
+                "target": "王惠",
+                "value": "相识"
+            }, {
+                "source": "娄家二公子",
+                "target": "蘧冼夫",
+                "value": "表叔"
+            }, {
+                "source": "陈礼",
+                "target": "鲁编修",
+                "value": "相识"
+            }, {
+                "source": "陈礼",
+                "target": "娄家二公子",
+                "value": "相识"
+            }, {
+                "source": "杨执中",
+                "target": "娄家二公子",
+                "value": "门客"
+            }, {
+                "source": "杨执中",
+                "target": "张铁臂",
+                "value": "朋友"
+            }, {
+                "source": "张铁臂",
+                "target": "娄家二公子",
+                "value": "门客"
+            }, {
+                "source": "鲁小姐",
+                "target": "蘧冼夫",
+                "value": "妻子"
+            }, {
+                "source": "鲁编修",
+                "target": "鲁小姐",
+                "value": "父亲"
+            }, {
+                "source": "权勿用",
+                "target": "娄家二公子",
+                "value": "门客"
+            }, {
+                "source": "权勿用",
+                "target": "杨执中",
+                "value": "朋友"
+            }, {
+                "source": "蘧冼夫",
+                "target": "马静",
+                "value": "朋友"
+            }, {
+                "source": "马静",
+                "target": "洪憨仙",
+                "value": "相识"
+            }, {
+                "source": "马静",
+                "target": "胡三公子",
+                "value": "相识"
+            }, {
+                "source": "洪憨仙",
+                "target": "胡三公子",
+                "value": "相识"
+            }, {
+                "source": "马静",
+                "target": "匡迥",
+                "value": "盟兄"
+            }],
+            "lineStyle": {
+                "normal": {
+                    "opacity": 0.9,
+                    "width": 2,
+                    "curveness": 0.1
+                }
+            }
+        }
+    ]
+}
